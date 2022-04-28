@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/font.css">
+  <link rel="stylesheet" href="/css/null.css">
+  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="/css/home_media.css">
+
+</head>
+
+<body>
+
+  <div class="wrapper-home">
+    <!-- VIDEO IS PART OF MAIN CONTAINER -->
+    <div class="container__banner__video" id="slideShow">
+      <video class="active__video" src="/img/img_cloud/home_/1_ghost.mp4" autoplay muted loop></video>
+      <video src="/img/img_cloud/home_/2_gh.mp4" autoplay muted loop></video>
+      <video src="/img/img_cloud/home_/3_cul.mp4" autoplay muted loop></video>
+      <video src="/img/img_cloud/home_/4_ph.mp4" autoplay muted loop></video>
+    </div>
+    <!-- NAVIGATION MENU -->
+    <header id="navbar">
+      <a href="" class="logo">Cars</a>
+      <nav>
+        <ul>
+          <li><a href="/html/history.html">History</a></li>
+          <li><a href="/main.html">Shop</a></li>
+          <li><a href="/html/cart.html">Registration</a></li>
+          <li><a class="active-choice" href="/html/home.html">Cars</a></li>
+        </ul>
+      </nav>
+
+      <span class="menuIcon" onclick="toggleMenu();"></span>
+    </header>
+    <!-- INF ABOUT CARS -->
+    <main>
+      <div class="container__banner__text" id="slideShowTEXT">
+        <!-- INF ABOUT GhOST -->
+        <section class="active">
+          <h2>Ghost</h2>
+          <p>Ghost — in detail. The purest expression of the spirit of Rolls-Royce. The New Ghost Extended. Debuted in
+            2020, the new Ghost Extended is a car for those looking for clarity. In the serene realm of his hut, time
+            and space are yours alone. Getting to know Bespoke - an individual order service. Choose items from our
+            exclusive collections or create for yourself a completely unique Rolls-Royce in collaboration with our
+            designers and craftsmen
+          </p>
+          <a href="/html/gost.html" class="border-button">more information</a>
+        </section>
+        <!-- INF ABOUT WRAITH -->
+        <section>
+          <h2>Wraith</h2>
+          <p>Rolls-Royce Wraith is definitely created for the driver, it's not for nothing that racer Jenson Button
+            starred in his advertising campaign. The car is "focused" on driving and fast, but controlled driving. It
+            differs significantly from the Ghost model, although its hood is similar, elongated, and overall the coupe
+            looks a bit like a four-door sedan.
+          </p>
+          <a href="/html/wraith.html" class="border-button"> more information</a>
+
+        </section>
+        <!-- INF ABOUT CULIANUN -->
+        <section>
+          <h2>Calliun</h2>
+          <p>Cullinan — in detail. From the urban jungle to the world of wildlife. In any environment, maintain complete
+            self-confidence with the most functional Rolls-Royce ever created. Getting to know Bespoke - an individual
+            order service. Choose items from our exclusive collections or create for yourself a completely unique
+            Rolls-Royce in collaboration with our designers and craftsmen. This is Rolls-Royce Bespoke - an individual
+            order service
+          </p>
+          <a href="/html/cullinan.html" class="border-button"> more information</a>
+
+        </section>
+        <!-- INF ABOUT PHANTON -->
+        <section>
+          <h2>Phantom</h2>
+          <p>Phantom. This iconic Rolls-Royce has received a new look, corresponding to the spirit of the era. This is
+            its eighth generation, but invariably the first in its class. Phantom is timeless. We begin the countdown of
+            a new era. Phantom is one of a kind. The only one is yours. Exceptional appearance.
+          </p>
+          <a href="/html/phantom.html " class="border-button">more information</a>
+
+        </section>
+      </div>
+    </main>
+    <!-- CONTROLING OBJ OF VIDEO AND TEXT-->
+    <ul class="controls">
+      <li id="prevControl"></li>
+      <li id="nextControl"></li>
+    </ul>
+  </div>
+
+  <script src="/js/script_burger.js"></script>
+  <script src="/js/home.js"></script>
+</body>
+
+</html>

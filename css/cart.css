@@ -1,0 +1,198 @@
+.banner {
+  height: 100vh;
+  width: 100%;
+  background-position: bottom;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(/img/img_cloud/card_/first_back.png);
+}
+.banner .banner__title {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+}
+.banner h2 {
+  color: white;
+  font-family: "Thin-italic";
+  font-size: 50px;
+}
+
+.sub-title {
+  margin: 200px 0;
+  text-align: center;
+  color: black;
+  font-family: "ExtraLight-italic";
+  font-size: 18px;
+}
+.sub-title h1 {
+  font-size: 48px;
+}
+
+.pic-ctn {
+  position: relative;
+  width: 75vw;
+  height: 300px;
+  margin-top: 15vh;
+  margin-bottom: 40vh;
+}
+
+.pic-ctn > img {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: calc(55% - 100px);
+  opacity: 0;
+  -webkit-animation: display-cart 10s infinite;
+          animation: display-cart 10s infinite;
+}
+
+img:nth-child(2) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+img:nth-child(3) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+img:nth-child(4) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+img:nth-child(5) {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+@-webkit-keyframes display-cart {
+  0% {
+    -webkit-transform: translateX(200px);
+            transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+@keyframes display-cart {
+  0% {
+    -webkit-transform: translateX(200px);
+            transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+.sub-banner {
+  margin-top: 400px;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-image: url(/img/img_cloud/card_/second_back.jpg);
+}
+.sub-banner h2 {
+  position: relative;
+  top: 300px;
+  color: white;
+  font-family: "ExtraLight-italic";
+  font-size: 24px;
+}
+
+.tittle__shop {
+  color: black;
+  text-align: center;
+  font-size: 2.4em;
+  margin: 300px 0 100px 0;
+}
+.tittle__shop h2 {
+  font-size: 1.4em;
+  font-family: "ExtraLight-italic";
+}
+.tittle__shop p {
+  font-family: "ExtraLight-italic";
+  font-size: 1em;
+}
+
+.form textarea {
+  width: 100%;
+  height: 40vh;
+  margin-top: 25px;
+}
+.form .form__submit .col {
+  padding: 0;
+  margin: 0;
+}
+.form .form__email, .form .form__textarea {
+  margin: 25px 0;
+}
+.form .form__email .col, .form .form__textarea .col {
+  padding: 0;
+}
+.form button {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 0;
+  padding: 20px 0;
+  width: 100%;
+  border: 1px solid black;
+  color: black;
+}
+.form button:hover {
+  background-color: black;
+  color: white;
+}
+
+.contact__firm {
+  color: black;
+  font-family: "ExtraLight-italic";
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.contact__firm {
+  padding: 100px;
+}
+
+.form {
+  margin-bottom: 100px;
+}

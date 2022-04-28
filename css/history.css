@@ -1,0 +1,207 @@
+.container__banner {
+  height: 100vh;
+  -webkit-box-shadow: 0px 400px 900px 100px #07071e;
+          box-shadow: 0px 400px 900px 100px #07071e;
+}
+
+.container__banner__video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.container__banner__video video {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container__banner__video .none-show {
+  opacity: 0;
+}
+.container__banner__video h1 {
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+  margin-top: 200px;
+  opacity: 0;
+  -webkit-transition: 10s;
+  transition: 10s;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  margin: 100px 0;
+}
+
+h1.none-show.show {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
+p.none-showTXT.show {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 1;
+}
+
+.container__banner__text {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 10em);
+}
+
+.tittle {
+  margin: 300px 0 400px 0;
+}
+.tittle p {
+  font-size: 2em;
+  color: black;
+  font-family: "Light";
+  color: white;
+  padding: 30px;
+  text-align: center;
+  -webkit-transform: translateY(200px);
+          transform: translateY(200px);
+  opacity: 0;
+  margin-top: 100px;
+}
+
+.iteam__car {
+  -webkit-transform: translateX(-1500px);
+          transform: translateX(-1500px);
+  opacity: 0;
+}
+
+div.iteam__car.show {
+  opacity: 1;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.item-cards {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.boxs {
+  opacity: 0;
+  -webkit-transform: translateY(300px);
+          transform: translateY(300px);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.boxs.show {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
+.boxs:hover .item-cards {
+  opacity: 0.2;
+}
+
+.boxs .item-cards:hover {
+  opacity: 1;
+}
+
+.container-car-inform {
+  padding: 100px 0;
+  margin: 300px;
+  color: black;
+  font-family: "Italic";
+  font-size: 18px;
+}
+.container-car-inform .row {
+  margin: 50px 0px;
+}
+.container-car-inform .row:nth-child(even) {
+  padding: 200px 0;
+}
+.container-car-inform .row {
+  opacity: 0.7;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+.container-car-inform .row:hover {
+  opacity: 1;
+}
+.container-car-inform a:hover {
+  color: white;
+}
+
+.main-txt {
+  text-align: center;
+  opacity: 0;
+  margin-top: 300px;
+  font-size: 1.3em;
+  color: black;
+  font-family: "Light";
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-transform: translateY(-200px);
+          transform: translateY(-200px);
+  margin: 200px;
+}
+.main-txt h2 {
+  margin-bottom: 50px;
+}
+.main-txt p {
+  line-height: 60px;
+  padding: 0 5vh;
+}
+
+.main-txt.show {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.text__origin {
+  font-family: "Light";
+  background-color: rgba(0, 0, 0, 0.589);
+  color: white;
+  border-radius: 10px;
+}
+.text__origin h2 {
+  margin-bottom: 20px;
+}
+
+.iteam__car__box-img {
+  margin: 30px 0;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.iteam__car__box-img img {
+  left: 0;
+  top: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.iteam__car__box-img .car-img__second {
+  position: absolute;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.iteam__car__box-img:hover .car-img__first {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.iteam__car__box-img:hover .car-img__second {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}

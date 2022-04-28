@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/font.css">
+  <link rel="stylesheet" href="/css/null.css">
+  <link rel="stylesheet" href="/css/media.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+</head>
+
+<body>
+  <!-- WEB-PAGE -->
+
+  <!-- navigation-bar -->
+  <header id="navbar">
+    <a href="" class="logo">Cars</a>
+    <nav>
+      <ul>
+        <li><a href="/html/history.html">History</a></li>
+        <li><a class="active-choice" href="/main.html">Shop</a></li>
+        <li><a href="/html/cart.html">Registration</a></li>
+        <li><a href="/html/home.html">Cars</a></li>
+      </ul>
+    </nav>
+
+    <!--object appears when size of page is less 1000px  -->
+    <span class="menuIcon" onclick="toggleMenu();"></span>
+  </header>
+  <!-- header video -->
+  <div class="banner__video ">
+    <div class="side container-fluid" id="side1">
+      <video src="/img/img_cloud/main_/main.mp4" autoplay loop muted></video>
+    </div>
+    <div class="side" id="side2">
+      <video src="/img/img_cloud/main_/main.mp4" autoplay loop muted></video>
+    </div>
+
+  </div>
+  <!-- main contant of the web-site -->
+  <!-- Main TITTLE of site  -->
+  <section class="container tittle__shop main-tittle-shp ">
+    <div class="col">
+      <div class="row">
+        <a id="key__shop">
+          <h1>MARKET</h1>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- INFORMATION CARD -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <!-- first card -->
+      <div class="col-lg-4 col-md-6 col-sm-12 card__iteam">
+        <figure class="card__iteam__text">
+          <img class="card__iteam__img" src="/img/img_cloud/main_/card_1.jpg" alt="">
+          <figcaption>TRIVIA</figcaption>
+        </figure>
+      </div>
+      <!-- second card -->
+      <div class="col-lg-4 col-md-6 col-sm-12 card__iteam">
+        <figure class="card__iteam__text">
+          <img class="card__iteam__img" src="/img/img_cloud/main_/card_2.jpg" alt="">
+          <figcaption>COMFORT</figcaption>
+        </figure>
+      </div>
+      <!-- third card -->
+      <div class="col-lg-4 col-md-6 card__iteam">
+        <figure class="card__iteam__text">
+          <img class="card__iteam__img" src="/img/img_cloud/main_/card_3.jpg" alt="">
+          <figcaption>DESIGNED</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+  <!-- SUB_TITTLE OF WEB -->
+  <section class="container  tittle__shop sub-tittle">
+    <div class="col">
+      <div class="row">
+        <a class="key__sho">
+          <h2>
+            YOU CHOICE DEPENDS ON YOU
+          </h2>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- MAIN BLOCK(GOODS AND INFORMATION ABOUT THEM, IF THE USER HOVER TO THE IMG WITH CAR) -->
+  <main class="container shop__sector">
+    <!-- after render sctipt this containr pull on of block with inforamtion about cars -->
+    <div class="row  justify-content-between " id="products-container">
+    </div>
+  </main>
+  <!-- TITTLE FOR CART -->
+  <section class="container shop__tittle">
+    <div class="row">
+      <div class="col">
+        <a>
+          <h2>YOU ORDER</h2>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- CART -->
+  <section class="container-fluid container-cart">
+    <div class="container container-cart__objs">
+      <!-- iteam -->
+      <div class="row iteam__shop" data-id="">
+        <div class="col-lg-6">
+          <img src="/img/img_cloud/main_/cart_firts_car.webp" alt="">
+        </div>
+        <div class="col align-self-center container-cart__objs__text ">
+          <h2>Wraith</h2>
+          <p>
+            <span>Length 4399 mm</span>
+            <span>Width 1248 mm</span>
+            <span>Engine type / number of values V12/48</span>
+            <span> Urban cycle 21,5 l / 100</span>
+            <span>cycle 13,4 л / 100 km</span>
+            <span>CO2 emissions 317 g/km</span>
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <!-- button -->
+    <div class="container button__shop">
+      <div class="row button__shop__row form__submit ">
+        <div class="col">
+          <button class="border-button dd">Buy</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center text-white" id="foot">
+    <div class="container p-4">
+      <div class="mb-4 footer__size__social__icon">
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/danila.kt_/" role="button"><i
+            class="fab fa-facebook-f"><img src="/img/img_cloud/footer_/1_ins.svg" alt=""></i></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="https://vk.com/id307251189" role="button"><i
+            class="fab fa-twitter"><img src="/img/img_cloud/footer_/2_Vk.svg" alt=""></i></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="https://mail.ru/" role="button"><i
+            class="fab fa-google"><img src="/img/img_cloud/footer_/3_em.svg" alt=""></i></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/danilakla?tab=repositories"
+          role="button"><i class="fab fa-instagram"><img src="/img/img_cloud/footer_/4_git.svg" alt=""></i></a>
+      </div>
+
+      <article class="mb-4">
+        <h2>
+          An English company, a division of BMW AG, specializing in the production of luxury cars under the
+          Rolls-Royce brand.
+        </h2>
+      </article>
+
+      <section class="">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">General info</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Cars</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">History</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact & form</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Form</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Shop</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Goods</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Cart</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">HISTORY</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">History of RR</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Elder cars</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="text-center p-3" style="background-color: rgba(73, 70, 70, 0.445);">
+      thanks for watching
+      <!-- 💓 -->
+    </div>
+
+  </footer>
+  <script src="/js/RenderProducts.js"></script>
+  <script src="/js/cart.js"></script>
+  <script src="/js/script_burger.js"></script>
+  <script src="/js/main.js"></script>
+
+  <!-- script and lib for animating of card-info(3d) -->
+  <script src="/js/vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card__iteam__img"), {
+      max: 25,
+      speed: 2000
+    });
+  </script>
+</body>
+
+</html>

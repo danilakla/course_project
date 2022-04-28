@@ -1,0 +1,20 @@
+@font-face {
+  font-family:"Light";
+  src: url(/font/Poppins-Light.ttf);
+}
+@font-face {
+  font-family:"Italic";
+  src: url(/font/Poppins-Italic.ttf);
+}
+@font-face {
+  font-family:"Thin-italic";
+  src: url(/font/Poppins-ThinItalic.ttf);
+}
+@font-face {
+  font-family:"ExtraLight-italic";
+  src: url(/font/Poppins-ExtraLightItalic.ttf)
+}
+/* @font-face {
+  font-family:"adit";
+  src: url(/font/Poppins-LightItalic.ttf);
+} */
