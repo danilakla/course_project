@@ -182,7 +182,7 @@ background-color: rgba(0, 0, 0, 0.397);
 .tittle__shop{
   
   h2{
-    @include text($big_fs, $color-key-black,$th-ital);
+    @include text(2em, $color-key-black,$th-ital);
     text-align:center;
   }
 

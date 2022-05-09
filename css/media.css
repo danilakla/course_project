@@ -205,6 +205,13 @@ display: none;  }
 }
 
 @media (max-width : 376px) {
+.tittle__shop h2{
+  font-size: 1px;
+}
+  .dd{
+    margin: 0;
+    padding: 20px 30px;
+  }
   .txt{
     font-size: 10px;
   }

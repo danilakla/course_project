@@ -164,7 +164,8 @@ a{
   margin-bottom: 100px;
 }
 .dd{
-  min-width: 200px;
+  max-width: 200px;
+  padding:20px 70px ;
   color: black;
   border: black 1px solid;
   &:hover{
